@@ -1,0 +1,22 @@
+/* ta02.css */
+
+.div-first {
+	background-color: #00FFD4;
+	font-size: 2em;
+}
+
+.div-later {
+	font-size: 0.7em;
+}
+
+#d2 {
+	background-color: #4DFFE1;
+}
+
+#d3 {
+	background-color: #B2FFF2;
+}
+
+.hover-bold:hover {
+	font-weight: bold;
+}

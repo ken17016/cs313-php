@@ -1,4 +1,4 @@
-DOCTYPE html>
+<!DOCTYPE html>
 	<html lang="en-us">
 	<head>
 	    <meta charset="utf-8" />
@@ -14,46 +14,46 @@ echo "The time is " . date("h:i:sa") . "</div>";?>
 <hr>
     <ul >
         <li>
-            <a href="./hello.html">assignment 01</a>
+            <a href="./hello.html">Week 01</a>
         </li>
         <li>
-            <a href="./assignments/Week02/02Prove.html">assignment 02</a>
+            <a href="./assignments/Week02/02Prove.html">Week 02</a>
         </li>
         <li>
-            <a href="./assignment03.html">assignment 03</a>
+            <a href="./assignments/Week03/03Prove.html">Week 03</a>
         </li>
         <li>
-            <a href="./assignment04.html">assignment 04</a>
+            <a href="./assignments/Week04/04Prove.html">Week 04</a>
         </li>
         <li>
-            <a href="./assignment05.html">assignment 05</a>
+            <a href="./assignmens.html">Week 05</a>
         </li>
         <li>
-            <a href="./assignment06.html">assignment 06</a>
+            <a href="./assignment06.html">Week 06</a>
         </li>
         <li>
-            <a href="./assignment07.html">assignment 07</a>
+            <a href="./assignment07.html">Week 07</a>
         </li>
         <li>
-            <a href="./assignment08/PlanesWalkerAcademy.html">assignment 08</a>
+            <a href="./assignment08/.html">Week 08</a>
         </li>
         <li>
-            <a href="./assignment09.html">assignment 09</a>
+            <a href="./assignment09.html">Week 09</a>
         </li>
         <li>
-            <a href="./assignment10.html">assignment 10</a>
+            <a href="./assignment10.html">Week 10</a>
         </li>
         <li>
-            <a href="./assignment11.html">assignment 11</a>
+            <a href="./assignment11.html">Week 11</a>
         </li>
         <li>
-            <a href="./assignment12.html">assignment 12</a>
+            <a href="./assignment12.html">Week 12</a>
         </li>
         <li>
-            <a href="./assignment13.html">assignment 13</a>
+            <a href="./assignment13.html">Week 13</a>
         </li>
         <li>
-            <a href="./assignment14.html">assignment 14</a>
+            <a href="./assignment14.html">Week 14</a>
         </li>
     </ul>
 </body>

@@ -45,7 +45,7 @@
         <tr>
             <td>Porg</td>
             <td>From the Star wars Universe, a small bird creature</td>
-            <td><img src="./Images/porg1.jpg" class="tdImage" alt="Picture of Porg Roar" /></td>
+            <td><img src="../../Images/porg1.jpg" class="tdImage" alt="Picture of Porg Roar" /></td>
             <td>
                 <label id="Price1">20000</label>
                 <span>Units</span>
@@ -55,7 +55,7 @@
         <tr>
             <td>Bat Mobile</td>
             <td>From the DC Univers, a tactile vehicle</td>
-            <td><img src="./Images/batMobile.jpg" class="tdImage" alt="Picture of the Bat Mobile" /></td>
+            <td><img src="../../Images/batMobile.jpg" class="tdImage" alt="Picture of the Bat Mobile" /></td>
             <td>
                 <label id="Price2">40000</label>
                 <span>Units</span>
@@ -65,7 +65,7 @@
         <tr>
             <td>MIllenium Falcon</td>
             <td>From the Star Wars Universe, a fast spaceship.</td>
-            <td><img src="./Images/milleniumFalcom.jpg" class="tdImage" alt="Picture of the Mellinium Falcon" /></td>
+            <td><img src="../../Images/milleniumFalcom.jpg" class="tdImage" alt="Picture of the Mellinium Falcon" /></td>
             <td>
                 <label id="Price3">8000000</label>
                 <span>Units</span>
@@ -75,7 +75,7 @@
         <tr>
             <td>Llama</td>
             <td>From the Earth, a furry four legged creature</td>
-            <td><img src="./Images/lama1.jpg" class="tdImage" alt="Picture of a llama" /></td>
+            <td><img src="../../Images/lama1.jpg" class="tdImage" alt="Picture of a llama" /></td>
             <td>
                 <label id="Price4">10000</label>
                 <span>Units</span>
@@ -85,7 +85,7 @@
         <tr>
             <td>Starship Enterprise</td>
             <td>From the Star Trek Universe, a large spaceship.</td>
-            <td><img src="./Images/starshipEnterprise.jpg" class="tdImage" alt="Picture of the Starship Enterprise" /></td>
+            <td><img src="../../Images/starshipEnterprise.jpg" class="tdImage" alt="Picture of the Starship Enterprise" /></td>
             <td>
                 <label id="Price5">55000000000</label>
                 <span>Units</span>
@@ -95,7 +95,7 @@
         <tr>
             <td>Thor's Hammer</td>
             <td>From the Marvel Universe, a hammer wielded by Thor, god of thunder.</td>
-            <td><img src="./Images/thorsHammer.jpg" class="tdImage" alt="Picture of Thor's Hammer" /></td>
+            <td><img src="../../Images/thorsHammer.jpg" class="tdImage" alt="Picture of Thor's Hammer" /></td>
             <td>
                 <label id="Price6">152850</label>
                 <span>Units</span>
@@ -105,7 +105,7 @@
         <tr>
             <td>Lama</td>
             <td>From the Earth, a monk leader sought after by many for knowledge.</td>
-            <td><img src="./Images/lama2.jpg" class="tdImage" alt="Picture of Dali Lama" /></td>
+            <td><img src="../../Images/lama2.jpg" class="tdImage" alt="Picture of Dali Lama" /></td>
             <td>
                 <label id="Price7">80000</label>
                 <span>Units</span>

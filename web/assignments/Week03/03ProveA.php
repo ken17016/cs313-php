@@ -35,7 +35,7 @@
         business and begin to build his vast empire as we know it today.
     </p>
     <h2>How We Grew</h2>
-    <img src="./Images/fallingShip.jpg" alt="Picture of falling ship." align="right" style="width:300px" />
+    <img src="../../Images/fallingShip.jpg" alt="Picture of falling ship." align="right" style="width:300px" />
     <p style="color: #343d46; font-family:Arial; font-size:18px;">
         Sir Tibbits began his vast empire of a business from a lonely cruiser
         he had found abandoned in the south quadrant of the radar galaxy while
@@ -54,7 +54,7 @@
         everyone knew that whatever wanted, Tibbits would deliver.
     </p>
     <h2>Today's Emporium</h2>
-    <img src="./Images/spaceStation.jpg" alt="Picture of space Station." align="right" style="width:200px" />
+    <img src="../../Images/spaceStation.jpg" alt="Picture of space Station." align="right" style="width:200px" />
     <p style="color: #343d46; font-family:sans-serif; font-size:18px;">
         As of Today, Sir Tibbits Emporium is a well-known oddity shop spanning
         across the entire universe. That you could put in any request to
@@ -69,7 +69,7 @@
         it done. For he delivers when Sir Tibbits is on the job.
     </p>
     <h2>What To Look Forward To In The Future</h2>
-    <img src="./Images/rainbowBridge.jpg" alt="Picture of Space bridge." align="right" style="width:200px;" />
+    <img src="../../Images/rainbowBridge.jpg" alt="Picture of Space bridge." align="right" style="width:200px;" />
     <p style="color: #343d46; font-family:Harrington; font-size:18px; font-weight:bold;">
         To the future! Sir Tibbits is always looking for his next big deal and
         adventure. Willing to go and explore all that he can. Not only is Sir

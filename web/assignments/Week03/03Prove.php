@@ -23,7 +23,7 @@
         <h2>The one stop shop where you can purchase anything for the right price!</h2>
         <h2>Check out our current top selling item:</h2>
         <a href="./03ProveC.php">
-            <img src="./Images/porg1.jpg" alt="Picture of Porg Roar" />
+            <img src="../../Images/porg1.jpg" alt="Picture of Porg Roar" />
         </a>
         <br />
         <p style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; width:80%;">

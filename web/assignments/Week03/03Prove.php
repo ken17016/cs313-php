@@ -22,7 +22,7 @@
         <h2>Welcome to Sir Tibbits Emporium Of Odditites, where your most brilliant dreams and ideas come to life.</h2>
         <h2>The one stop shop where you can purchase anything for the right price!</h2>
         <h2>Check out our current top selling item:</h2>
-        <a href="./assignment04c.html">
+        <a href="./03ProveC.php">
             <img src="./Images/porg1.jpg" alt="Picture of Porg Roar" />
         </a>
         <br />

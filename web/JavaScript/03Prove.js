@@ -4,22 +4,22 @@ window.onload = function () {
 
     //Navigates to page assignment04.html.
     document.getElementById("home").onclick = function () {
-        location.href = "./assignment04.html";
+        location.href = "./03Prove.php";
     };
 
     //Navigates to page assignment04a.html.
     document.getElementById("about").onclick = function () {
-        location.href = "./assignment04a.html";
+        location.href = "./03ProveA.php";
     };
 
     //Navigates to page assignment04b.html.
     document.getElementById("contactUs").onclick = function () {
-        location.href = "./assignment04b.html";
+        location.href = "./03ProveB.php";
     };
 
     //Navigates to page assignment04c.html.
     document.getElementById("onlineStore").onclick = function () {
-        location.href = "./assignment04c.html";
+        location.href = "./03ProveC.php";
     };
 };
 

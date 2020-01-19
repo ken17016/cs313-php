@@ -1,0 +1,18 @@
+﻿body {
+    text-align:center;
+    color: white;
+    background-color:black;
+}
+
+ul {
+    list-style-type:none;
+}
+
+li {
+    margin:0 0 10px 0;
+}
+
+a{
+    color:white;
+    font-size: 20px;
+}

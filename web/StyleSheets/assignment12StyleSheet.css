@@ -1,0 +1,26 @@
+﻿/*Style basics for h1 tag*/
+h1 {
+    margin-left: 2px;
+}
+
+/*Style basics for body header.*/
+header {
+    background-color: #c0c5ce;
+}
+
+/*Style basics for body.*/
+body {
+    background-color: #c0c5ce;
+    font-size: 20px;
+}
+
+/*Style basics for footer.*/
+footer {
+    background-color: #c0c5ce;
+    height: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+   

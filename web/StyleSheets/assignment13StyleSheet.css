@@ -1,0 +1,118 @@
+﻿/*
+    Color Scheme: 
+HEX: #55ACEE, (Blue)
+
+HEX: #292F33, (Black)
+
+HEX: #66757F, (Gray)
+
+HEX: #CCD6DD, (Light Gray)
+
+HEX: #E1E8ED, (Lighter Gray)
+
+HEX: #FFFFFF, (White)
+*/
+
+
+
+
+/*Style basics for h1 tag*/
+h1 {
+    margin-left: 2px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+/*Style basics for body header.*/
+header {
+    background-color: #66757F;
+    border-radius:25px;
+    padding-left:10px;
+    padding-bottom:5px;
+    color:white;
+    font-size:36px;
+    width:85%;
+    vertical-align:top;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    border-radius:25px;
+    width:100%;
+    margin:0px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+/*Style basics for body.*/
+body {
+    background-color: #E1E8ED;
+}
+
+/*Style basics for footer.*/
+footer {
+    background-color: #c0c5ce;
+    height: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    /*Style for div within a footer.*/
+    footer > div {
+        float: left;
+        width: 33.33%;
+    }
+
+/*A style to center text.*/
+.center {
+    text-align: center;
+}
+
+/*A style to right-align text within the webpage.*/
+.right {
+    text-align: right;
+}
+
+/*A style to float right.*/
+.float-right {
+    float: right;
+}
+
+/*A style to float left.*/
+.float-left {
+    float: left
+}
+
+/*Style for the form document.*/
+form {
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/*Style for selecting a form input.*/
+input:focus {
+    border: 2px solid #555;
+}
+
+form {
+    font-size: 20px;
+    background-color: #55ACEE;
+}
+
+.textbox {
+    padding: 2px;
+    margin-left: 20px;
+}
+
+table {
+    width: inherit;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    padding:2px;
+}

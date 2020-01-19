@@ -12,7 +12,7 @@
 <?php echo "<div = class='info'>Today is " . date("l") . "<br/>";
 echo "The server time is " . date("h:i:sa") . "</div>";
 $localTime = new DateTime("now", new DateTimeZone('America/Denver'));
-echo "Local time is $localTime";?>
+echo "Local time is ". $localTime . " ";?>
 <hr>
     <ul >
         <li>

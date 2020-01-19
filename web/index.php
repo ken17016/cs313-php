@@ -9,10 +9,10 @@
     <h1>CS 313 assignments </h1>
     <hr />
 <hr>
-<?php echo "<div = class='info'>Today is " . date("l") . "<br/>";
+<?php echo "<div = class='info'>Server day is " . date("l") . "<br/>";
 echo "The server time is " . date("h:i:sa") . "</div>";
 $localTime = new DateTime("now", new DateTimeZone('America/Denver'));
-echo "Local time is ". $localTime . " ";?>
+echo "<div>Local time is ". $localTime->format('m/d/Y, H:i:s') . "</div> ";?>
 <hr>
     <ul >
         <li>

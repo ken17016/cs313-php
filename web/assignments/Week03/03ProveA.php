@@ -20,7 +20,7 @@
     </header>
 
     <h2>The Beginning...</h2>
-    <img src="./Images/nightSky.jpg" alt="Picture of night sky." align="right" style="width:300px" />
+    <img src="../../Images/nightSky.jpg" alt="Picture of night sky." align="right" style="width:300px" />
     <p style="color: #343d46; font-family:Georgia, 'Times New Roman', Times, serif; font-size:18px;">
         Once upon a time far away there was a poor little surf boy and this surf boy had a dream,
         a big dream. His dream was to collect and sell all the oddities that he could.

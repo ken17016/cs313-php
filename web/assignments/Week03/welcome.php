@@ -1,4 +1,6 @@
 <?php
+    // htmlspecialchars: Convert the predefined characters "<" (less than) 
+    //and ">" (greater than) to HTML entities:
     $name = htmlspecialchars($_POST["name"]);
     $email = htmlspecialchars($_POST["email"]);
     $major = htmlspecialchars($_POST["major"]);

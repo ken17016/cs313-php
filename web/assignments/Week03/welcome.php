@@ -21,7 +21,7 @@
         <br>
         <?php
             foreach($_POST['place'] as $selected){
-                echo $selected."</br>';
+                echo $selected."</br>";
             }
         ?>
     </body>

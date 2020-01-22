@@ -12,7 +12,7 @@
     <body>
         <?=$name?>
         <br>
-        <a href="mailto: <?=$email?>"><?$email?></a>
+        Email: <a href="mailto:<?=$email?>"><?=$email?></a>
         <br>
         <?=$major?>
         <br>

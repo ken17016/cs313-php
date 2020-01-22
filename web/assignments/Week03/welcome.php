@@ -11,8 +11,11 @@
     </head>
     <body>
         <?=$name?>
-        <?=$email?>
+        <br>
+        <a href="maulto: <?=$email?>"><?$email?></a>
+        <br>
         <?=$major?>
+        <br>
         <?=$comments?>
     </body>
 </html>

@@ -11,6 +11,7 @@
    $thorHammer = $_SESSION["thorHammer"];
    $lama = $_SESSION["lama"];
    $Total = ($porg*20000)  + ($batMobile*40000) + ($millFalcon*8000000) + ($llama*10000) + ($starship*55000000000) + ($thorHammer*152850) + ($lama*80000);
+   $_SESSION["total"]= $Total;
 ?>
 
 <!DOCTYPE html>
@@ -35,19 +36,21 @@
         <hr />
     </header>
    <form action="checkout.php">
-      Number of Porgs: <?=$porg?>
+      Number of Porgs: <input type="number" name="porg" value="<?=$porg?>" />
       <br>
-      Number of Bat Mobiles: <?=$batMobile?>
+      Number of Bat Mobiles: <input type="number" name="batMobile" value="<?=$batMobile?>" />
       <br> 
-      Number of Millenium falcons: <?=$millFalcon?>
+      Number of Millenium falcons: <input type="number" name="millFalacon" value="<?=$millFalcon?>" />
       <br>
-      Number of llams: <?=$llama?>
+      Number of llamas: <input type="number" name="llama" value="<?=llama?>" />
       <br>
-      Number of starships: <?=$starship?>
+      Number of starships: <input type="number" name="starship" value="<?=starship?>" />
+
       <br>
-      Number of Thor Hammers: <?=$thorHammer?>
+      Number of Thor Hammers: <input type="number" name="thorHammer" value="<?=thorHammer?>" />
+
       <br>
-      Number of lamas: <?=$lama?>
+      Number of lamas: <input type="number" name="lama" value="<?=lama?>" />
       <br> 
       Grand Total: <?=$Total?>
 

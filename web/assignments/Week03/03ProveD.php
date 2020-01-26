@@ -42,15 +42,15 @@
       <br> 
       Number of Millenium falcons: <input type="number" name="millFalacon" value="<?=$millFalcon?>" />
       <br>
-      Number of llamas: <input type="number" name="llama" value="<?=llama?>" />
+      Number of llamas: <input type="number" name="llama" value="<?=$llama?>" />
       <br>
-      Number of starships: <input type="number" name="starship" value="<?=starship?>" />
+      Number of starships: <input type="number" name="starship" value="<?=$starship?>" />
 
       <br>
-      Number of Thor Hammers: <input type="number" name="thorHammer" value="<?=thorHammer?>" />
+      Number of Thor Hammers: <input type="number" name="thorHammer" value="<?=$thorHammer?>" />
 
       <br>
-      Number of lamas: <input type="number" name="lama" value="<?=lama?>" />
+      Number of lamas: <input type="number" name="lama" value="<?=$lama?>" />
       <br> 
       Grand Total: <?=$Total?>
 

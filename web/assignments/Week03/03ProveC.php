@@ -34,6 +34,7 @@
             <button id="about" class="tablinks">About</button>
             <button id="contactUs" class="tablinks">Contact Us</button>
             <button id="onlineStore" class="tablinks">Online Store</button>
+            <button id="cart" class="tablinks">Cart</button>
         </div>
         <hr />
     </header>

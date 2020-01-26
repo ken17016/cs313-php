@@ -3,13 +3,15 @@
 ?>
 
 <?php
-   $_SESSION["porg"]= $_POST["porg"];
-   $_SESSION["batMobile"]= $_POST["batMobile"];
-   $_SESSION["millFalcon"]= $_POST["millFalcon"];
-   $_SESSION["llama"]= $_POST["llama"];
-   $_SESSION["starship"]= $_POST["starship"];
-   $_SESSION["thorHammer"]= $_POST["thorHammer"];
-   $_SESSION["lama"]= $_POST["lama"];
+   $porg = $_SESSION["porg"]= $_POST["porg"];
+   $batMobile = $_SESSION["batMobile"]= $_POST["batMobile"];
+   $millFalcon = $_SESSION["millFalcon"]= $_POST["millFalcon"];
+   $llama = $_SESSION["llama"]= $_POST["llama"];
+   $starship = $_SESSION["starship"]= $_POST["starship"];
+   $thorHammer = $_SESSION["thorHammer"]= $_POST["thorHammer"];
+   $lama = $_SESSION["lama"]= $_POST["lama"];
+   $Total = $porg*20000  + $batMobile*40000 + $millFalcon*8000000 + $llama*10000 + 
+      $starship*55000000000 + $thorHammer*152850 + $lama*80000;
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +19,31 @@
    <head>
    </head>
    <body>
-      <?=$_SESSION["porg"]?>
+    <header>
+        <h1>Welcome to the Market</h1>
+        <div class="tab">
+            <button id="home" class="tablinks">Home</button>
+            <button id="about" class="tablinks">About</button>
+            <button id="contactUs" class="tablinks">Contact Us</button>
+            <button id="onlineStore" class="tablinks">Online Store</button>
+            <button id="cart" class="tablinks">Cart</button>
+        </div>
+        <hr />
+    </header>
+      Number of Porgs: <?=$porg?>
+      <br>
+      Number of Bat Mobiles: <?=$batMobile?>
+      <br> 
+      Number of Millenium falcons: <?=$millFalcon?>
+      <br>
+      Number of llams: <?=$llama?>
+      <br>
+      Number of starships: <?=$starship?>
+      <br>
+      Number of Thor Hammers: <?=$thorHammer?>
+      <br>
+      Number of lamas: <?=$lama?>
+      <br> 
+      Grand Total: <?=$Total?>
    </body>
 </html>

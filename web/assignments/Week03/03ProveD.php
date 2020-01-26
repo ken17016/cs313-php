@@ -36,23 +36,23 @@
         <hr />
     </header>
    <form action="checkout.php">
-      Number of Porgs: <input type="number" name="porg" value="<?=$porg?>" />
+      Number of Porgs: <input type="number" name="porg" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$porg?>" />
       <br>
-      Number of Bat Mobiles: <input type="number" name="batMobile" value="<?=$batMobile?>" />
+      Number of Bat Mobiles: <input type="number" name="batMobile" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$batMobile?>" />
       <br> 
-      Number of Millenium falcons: <input type="number" name="millFalacon" value="<?=$millFalcon?>" />
+      Number of Millenium falcons: <input type="number" name="millFalacon" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$millFalcon?>" />
       <br>
-      Number of llamas: <input type="number" name="llama" value="<?=$llama?>" />
+      Number of llamas: <input type="number" name="llama" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$llama?>" />
       <br>
-      Number of starships: <input type="number" name="starship" value="<?=$starship?>" />
+      Number of starships: <input type="number" name="starship" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$starship?>" />
 
       <br>
-      Number of Thor Hammers: <input type="number" name="thorHammer" value="<?=$thorHammer?>" />
+      Number of Thor Hammers: <input type="number" name="thorHammer" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$thorHammer?>" />
 
       <br>
-      Number of lamas: <input type="number" name="lama" value="<?=$lama?>" />
+      Number of lamas: <input type="number" name="lama" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$lama?>" />
       <br> 
-      Grand Total: <?=$Total?>
+      Grand Total: <label id="Price2"><?=$Total?></label>
 
      <input type="submit" value="Submit"> 
 </form>

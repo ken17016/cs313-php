@@ -16,6 +16,11 @@
 <!DOCTYPE html>
 <html>
    <head>
+    <meta charset="utf-8" />
+    <title>STEO Store</title>
+    <link rel="stylesheet" type="text/css" href="../../StyleSheets/03ProveStyleSheet.css">
+    <link rel="shortcut icon" href="../../Images/Hal.ico" />
+    <script src="../../JavaScript/03Prove.js"></script>
    </head>
    <body>
     <header>

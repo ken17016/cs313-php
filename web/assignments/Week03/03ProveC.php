@@ -51,7 +51,7 @@
                 <label id="Price1">20000</label>
                 <span>Units</span>
             </td>
-            <td><input type="number" id="Quantity1" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
+            <td><input type="number" id="Quantity1" name="porg" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
         </tr>
         <tr>
             <td>Bat Mobile</td>
@@ -61,7 +61,7 @@
                 <label id="Price2">40000</label>
                 <span>Units</span>
             </td>
-            <td><input type="number" id="Quantity2" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
+            <td><input type="number" id="Quantity2" name="batMobile" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
         </tr>
         <tr>
             <td>MIllenium Falcon</td>
@@ -71,7 +71,7 @@
                 <label id="Price3">8000000</label>
                 <span>Units</span>
             </td>
-            <td><input type="number" id="Quantity3" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
+            <td><input type="number" id="Quantity3" name="millFalcon" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
         </tr>
         <tr>
             <td>Llama</td>
@@ -81,12 +81,12 @@
                 <label id="Price4">10000</label>
                 <span>Units</span>
             </td>
-            <td><input type="number" id="Quantity4" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
+            <td><input type="number" id="Quantity4" name="llama" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
         </tr>
         <tr>
             <td>Starship Enterprise</td>
             <td>From the Star Trek Universe, a large spaceship.</td>
-            <td><img src="../../Images/starshipEnterprise.jpg" class="tdImage" alt="Picture of the Starship Enterprise" /></td>
+            <td><img src="../../Images/starshipEnterprise.jpg" name="starship" class="tdImage" alt="Picture of the Starship Enterprise" /></td>
             <td>
                 <label id="Price5">55000000000</label>
                 <span>Units</span>
@@ -101,7 +101,7 @@
                 <label id="Price6">152850</label>
                 <span>Units</span>
             </td>
-            <td><input type="number" id="Quantity6" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
+            <td><input type="number" name="thorHammer" id="Quantity6" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
         </tr>
         <tr>
             <td>Lama</td>
@@ -111,7 +111,7 @@
                 <label id="Price7">80000</label>
                 <span>Units</span>
             </td>
-            <td><input type="number" id="Quantity7" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
+            <td><input type="number" name="lama" id="Quantity7" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
         </tr>
         <tr>
             <td style="border: none;"></td>

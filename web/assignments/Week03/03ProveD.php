@@ -52,7 +52,7 @@
       Grand Total: <?=$Total?>
 
      <input type="submit" value="Submit"> 
-    <a href='./sess.php'><button>Reset</button></a>
 </form>
+    <a href='./sess.php'><button>Reset</button></a>
    </body>
 </html>

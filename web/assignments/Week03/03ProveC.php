@@ -90,12 +90,12 @@
         <tr>
             <td>Starship Enterprise</td>
             <td>From the Star Trek Universe, a large spaceship.</td>
-            <td><img src="../../Images/starshipEnterprise.jpg" name="starship" class="tdImage" alt="Picture of the Starship Enterprise" /></td>
+            <td><img src="../../Images/starshipEnterprise.jpg" class="tdImage" alt="Picture of the Starship Enterprise" /></td>
             <td>
                 <label id="Price5">55000000000</label>
                 <span>Units</span>
             </td>
-            <td><input type="number" id="Quantity5" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
+            <td><input type="number" id="Quantity5" name="starship" onchange="add_number()" style="width: 48px; padding:1px;" value="0" min="0" /></td>
         </tr>
         <tr>
             <td>Thor's Hammer</td>

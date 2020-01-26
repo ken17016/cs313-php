@@ -10,8 +10,7 @@
    $starship = $_SESSION["starship"]= $_POST["starship"];
    $thorHammer = $_SESSION["thorHammer"]= $_POST["thorHammer"];
    $lama = $_SESSION["lama"]= $_POST["lama"];
-   $Total = $porg*20000  + $batMobile*40000 + $millFalcon*8000000 + $llama*10000 + 
-      $starship*55000000000 + $thorHammer*152850 + $lama*80000;
+   $Total = ($porg*20000)  + ($batMobile*40000) + ($millFalcon*8000000) + ($llama*10000) + ($starship*55000000000) + ($thorHammer*152850) + ($lama*80000);
 ?>
 
 <!DOCTYPE html>

@@ -38,7 +38,7 @@
         </div>
         <hr />
     </header>
-<form action="03ProveD.php" method="post">
+<form action="sess.php" method="post">
     <table>
         <tr>
             <th>Item</th>

@@ -34,6 +34,7 @@
         </div>
         <hr />
     </header>
+   <form action="checkout.php">
       Number of Porgs: <?=$porg?>
       <br>
       Number of Bat Mobiles: <?=$batMobile?>
@@ -49,5 +50,9 @@
       Number of lamas: <?=$lama?>
       <br> 
       Grand Total: <?=$Total?>
+
+     <input type="submit" value="Submit"> 
+    <a href='./sess.php'><button>Reset</button></a>
+</form>
    </body>
 </html>

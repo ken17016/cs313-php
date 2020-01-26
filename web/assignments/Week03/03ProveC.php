@@ -34,6 +34,7 @@
         </div>
         <hr />
     </header>
+<form action="03ProveD.php" method="post">
     <table>
         <tr>
             <th>Item</th>
@@ -131,6 +132,7 @@
             </td>
         </tr>
     </table>
+</form>
     <footer>
         <hr />
         <div style="min-width:200px;">

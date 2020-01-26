@@ -3,13 +3,13 @@
 ?>
 
 <?php
-   $porg = $_SESSION["porg"]= $_POST["porg"];
-   $batMobile = $_SESSION["batMobile"]= $_POST["batMobile"];
-   $millFalcon = $_SESSION["millFalcon"]= $_POST["millFalcon"];
-   $llama = $_SESSION["llama"]= $_POST["llama"];
-   $starship = $_SESSION["starship"]= $_POST["starship"];
-   $thorHammer = $_SESSION["thorHammer"]= $_POST["thorHammer"];
-   $lama = $_SESSION["lama"]= $_POST["lama"];
+   $porg = $_SESSION["porg"];
+   $batMobile = $_SESSION["batMobile"];
+   $millFalcon = $_SESSION["millFalcon"];
+   $llama = $_SESSION["llama"];
+   $starship = $_SESSION["starship"];
+   $thorHammer = $_SESSION["thorHammer"];
+   $lama = $_SESSION["lama"];
    $Total = ($porg*20000)  + ($batMobile*40000) + ($millFalcon*8000000) + ($llama*10000) + ($starship*55000000000) + ($thorHammer*152850) + ($lama*80000);
 ?>
 

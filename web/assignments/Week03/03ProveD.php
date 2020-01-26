@@ -36,21 +36,21 @@
         <hr />
     </header>
    <form action="checkout.php">
-      Number of Porgs: <input type="number" name="porg" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$porg?>" />
+      Number of Porgs: <input type="number" id="Quantity1"  name="porg" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$porg?>" />
       <br>
-      Number of Bat Mobiles: <input type="number" name="batMobile" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$batMobile?>" />
+      Number of Bat Mobiles: <input type="number"  id="Quantity2" name="batMobile" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$batMobile?>" />
       <br> 
-      Number of Millenium falcons: <input type="number" name="millFalacon" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$millFalcon?>" />
+      Number of Millenium falcons: <input type="number"  id="Quantity3" name="millFalacon" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$millFalcon?>" />
       <br>
-      Number of llamas: <input type="number" name="llama" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$llama?>" />
+      Number of llamas: <input type="number"  id="Quantity1" name="llama" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$llama?>" />
       <br>
-      Number of starships: <input type="number" name="starship" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$starship?>" />
+      Number of starships: <input type="number"  id="Quantity4" name="starship" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$starship?>" />
 
       <br>
-      Number of Thor Hammers: <input type="number" name="thorHammer" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$thorHammer?>" />
+      Number of Thor Hammers: <input type="number"  id="Quantity5" name="thorHammer" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$thorHammer?>" />
 
       <br>
-      Number of lamas: <input type="number" name="lama" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$lama?>" />
+      Number of lamas: <input type="number"  id="Quantity6" name="lama" onchange="add_number()" style="width: 48px; padding:1px;" value="<?=$lama?>" />
       <br> 
       Grand Total: <label id="Price2"><?=$Total?></label>
 

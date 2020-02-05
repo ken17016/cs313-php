@@ -28,7 +28,7 @@ echo "<div>Local time is ". $localTime->format('m/d/Y, H:i:s') . "</div> ";?>
             <a href="./spoof.html">Week 04</a>
         </li>
         <li>
-            <a href="./spoof.html">Week 05</a>
+            <a href="./assignments/Week05/05Teach.php">Week 05</a>
         </li>
         <li>
             <a href="./spoof.html">Week 06</a>

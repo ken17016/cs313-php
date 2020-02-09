@@ -25,6 +25,10 @@
             padding-top: 6px;
         }
     </style>
+   <?php
+   require('dbcon.php');
+   $db = get_db();
+?>
 </head>
 <body>
     <header>
@@ -48,7 +52,10 @@
             <th>Quantity</th>
         </tr>
         <tr>
-            <td>Porg</td>
+        <td><?php 
+               $db->prepare('Select item from products where products_id = 1');
+               $db->execute();
+             ?>Porg</td>
             <td>From the Star wars Universe, a small bird creature</td>
             <td><img src="../../Images/porg1.jpg" class="tdImage" alt="Picture of Porg Roar" /></td>
             <td>

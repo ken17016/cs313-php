@@ -53,12 +53,12 @@
         </tr>
         <tr>
         <td><?php 
-               $statement = $db->prepare('Select item from products where products_id = 1');
+               $statement = $db->prepare('Select * from products');
    $statement->execute();
-   $porgs = $statement->fetchALL(PDO::FETCH_ASSOC);
-   foreach($porgs as $porg)
-      echo $porg['item'];
-             ?>Porg</td>
+   $products = $statement->fetchALL(PDO::FETCH_ASSOC);
+   foreach($products as $product)
+      echo "<tr><td>" . $product['item'] . "</td> <td>" . $product['description'] . "</td> <td><img/></td> <td> <label id=''>". $product['price'] . "</label> <span>Units</span> </td> </tr>"; 
+?>Porg
             <td>From the Star wars Universe, a small bird creature</td>
             <td><img src="../../Images/porg1.jpg" class="tdImage" alt="Picture of Porg Roar" /></td>
             <td>

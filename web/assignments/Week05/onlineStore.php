@@ -51,14 +51,16 @@
             <th>Price</th>
             <th>Quantity</th>
         </tr>
-        <tr>
-        <td><?php 
+        
+        <?php 
                $statement = $db->prepare('Select * from products');
    $statement->execute();
    $products = $statement->fetchALL(PDO::FETCH_ASSOC);
    foreach($products as $product)
       echo "<tr><td>" . $product['item'] . "</td> <td>" . $product['description'] . "</td> <td><img/></td> <td> <label id=''>". $product['price'] . "</label> <span>Units</span> </td> </tr>"; 
-?>Porg
+?>
+            <tr>
+           <td> Porg</td>
             <td>From the Star wars Universe, a small bird creature</td>
             <td><img src="../../Images/porg1.jpg" class="tdImage" alt="Picture of Porg Roar" /></td>
             <td>

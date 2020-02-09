@@ -55,8 +55,9 @@
         <td><?php 
                $statement = $db->prepare('Select item from products where products_id = 1');
    $statement->execute();
-   echo $statement->fetchALL(PDO::FETCH_ASSOC);
-   
+   $porgs = $statement->fetchALL(PDO::FETCH_ASSOC);
+   foreach($porgs as $porg)
+      echo $porg['item'];
              ?>Porg</td>
             <td>From the Star wars Universe, a small bird creature</td>
             <td><img src="../../Images/porg1.jpg" class="tdImage" alt="Picture of Porg Roar" /></td>

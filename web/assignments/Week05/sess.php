@@ -12,5 +12,5 @@
    $_SESSION["thorHammer"]= $_POST["thorHammer"];
    $_SESSION["lama"]= $_POST["lama"];
 
-   header("Location: 03ProveD.php");
+   header("Location: cart.php");
 ?>

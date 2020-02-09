@@ -53,11 +53,14 @@
         </tr>
         
         <?php 
+               $i = 0;
                $statement = $db->prepare('Select * from products');
    $statement->execute();
    $products = $statement->fetchALL(PDO::FETCH_ASSOC);
-   foreach($products as $product)
-      echo "<tr><td>" . $product['item'] . "</td> <td>" . $product['description'] . "</td> <td><img/></td> <td> <label id=''>". $product['price'] . "</label> <span>Units</span> </td> </tr>"; 
+   foreach($products as $product){
+      $i++;
+      echo "<tr><td>" . $product['item'] . "</td> <td>" . $product['description'] . "</td> <td><img src =""/></td> <td> <label id=''>". $product['price'] . "</label> <span>Units</span> </td><td><input type='number' id='Quantity".$i." name=".$product['item']." style='width: 48px; padding:1px;' value='0' min='0'/></td> </tr>"; 
+   }
 ?>
             <tr>
            <td> Porg</td>

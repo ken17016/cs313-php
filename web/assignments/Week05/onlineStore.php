@@ -64,8 +64,23 @@
       echo "<tr><td>" . $product['item'] . "</td> <td>" . $product['description'] . "</td> <td><img src = '../../Images/". $image .".jpg'/ class='tdImage'></td> <td> <label id=''>". $product['price'] . "</label> <span>Units</span> </td><td><input type='number' id='Quantity".$i."' name='". $poster ."' style='width: 48px; padding:1px;' value='0' min='0'/></td> </tr>"; 
    }
 ?>
+        <tr>
+            <td style="border: none;"></td>
+            <td style="border: none;"></td>
+            <td style="border: none;"></td>
+            <td>
+                <div>
+                    <span>Total Price:</span>
+                    <br />
+                    <label id="PTotal">0</label>
+                    <span>Units</span>
+                </div>
+            </td>
+            <td>
+                <input type="submit" value="Submit">
+            </td>
+        </tr>
     </table>
-   <input type="submit" value="Submit">
 </form>
     <footer>
         <hr />

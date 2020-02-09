@@ -53,8 +53,10 @@
         </tr>
         <tr>
         <td><?php 
-               $db->prepare('Select item from products where products_id = 1');
-               $db->execute();
+               $statement = $db->prepare('Select item from products where products_id = 1');
+   $statement->execute();
+   echo $statement->fetchALL(PDO::FETCH_ASSOC);
+   
              ?>Porg</td>
             <td>From the Star wars Universe, a small bird creature</td>
             <td><img src="../../Images/porg1.jpg" class="tdImage" alt="Picture of Porg Roar" /></td>

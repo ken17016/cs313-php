@@ -5,7 +5,7 @@
     <title>STEO About</title>
     <link rel="stylesheet" type="text/css" href="../../StyleSheets/03ProveStyleSheet.css">
     <link rel="shortcut icon" href="../../Images/Hal.ico" />
-    <script src="../../JavaScript/03Prove.js"></script>
+    <script src="../../JavaScript/05Prove.js"></script>
 </head>
 <body>
     <header>

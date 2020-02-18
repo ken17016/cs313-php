@@ -33,8 +33,10 @@
    <form action="login.php" method="post">
       <label>Username: </label>
       <input type="text" name="userName"/>
-      <label>Password: </label>
-      <input type="password" name="password"/>
+      <div>
+          <label>Password: </label>
+          <input type="password" name="password"/>
+      </div>      
       <div>
          <input type="submit">
          <input type="reset">

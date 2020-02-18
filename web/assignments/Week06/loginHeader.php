@@ -25,10 +25,6 @@
             padding-top: 6px;
         }
     </style>
-   <?php
-   require('dbcon.php');
-   $db = get_db();
-?>
 </head>
 <body>
    <header>
@@ -36,9 +32,12 @@
    <header>
    <form action="login.php" method="post">
       <label>Username: </label>
-      <input type="text"/>
+      <input type="text" name="userName"/>
       <label>Password: </label>
-      <input type="password"/>
+      <input type="password" name="password"/>
+
+      <input type="submit">
+      <input type="reset">
    </form>
 </body>
 </html>

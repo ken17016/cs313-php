@@ -35,9 +35,10 @@
       <input type="text" name="userName"/>
       <label>Password: </label>
       <input type="password" name="password"/>
-
-      <input type="submit">
-      <input type="reset">
+      <div>
+         <input type="submit">
+         <input type="reset">
+      </div>
    </form>
 </body>
 </html>

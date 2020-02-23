@@ -55,3 +55,7 @@ function add_number() {
     document.getElementById("QTotal").innerHTML = qresult;
     document.getElementById("PTotal").innerHTML = presult;
 }
+
+function empty(){
+
+}

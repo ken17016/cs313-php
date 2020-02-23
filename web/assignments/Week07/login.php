@@ -7,7 +7,7 @@
   $userName = htmlspecialchars($_POST["userName"]);
   $password = $_POST["password"];
    
-  $query = 'SELECT users_id usersname, userspassword FROM users WHERE usersname = :username';
+  $query = 'SELECT users_id, usersname, userspassword FROM users WHERE usersname = :username';
 
   $statement = $db->prepare($query);
   $statement->bindvalue(":username", $userName, PDO::PARAM_STR); 
@@ -16,8 +16,9 @@
   $user = $statement->fetchALL(PDO::FETCH_ASSOC);
 
   echo print_r($user);
-  echo "username = $userName password= $password<br>";
-  echo "username = " . $user[0]['username'] . " password = " . $user[0]['password'];
+  echo "<br>";
+  echo "input username = $userName :: input password= $password<br>";
+  echo "rusername = " . $user[0]['username'] . " rpassword = " . $user[0]['password'];
 
   //if(password_verify($password, $user[0]['userspassword'])){
    //$_SESSION['user_id']= $user[0]['users_id'];

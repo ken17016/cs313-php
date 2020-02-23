@@ -4,7 +4,7 @@
     
 
   $userName = htmlspecialchars($_POST["userName"]);
-  $password = &_POST["password"];
+  $password = $_POST["password"];
    
   $query = 'SELECT user_id usersname, userspassword FROM users WHERE usersname = :username';
 

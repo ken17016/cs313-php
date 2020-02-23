@@ -15,17 +15,19 @@
 
   $user = $statement->fetchALL(PDO::FETCH_ASSOC);
 
-  if(password_verify($password, $user[0]['userspassword'])){
-   $_SESSION['user_id']= $user[0]['users_id'];
-   $_SESSION['userName']= $user[0]['usersname'];
+  echo print_r($user);
+  echo "username = $userName password= $password<br>";
+  echo "username = " . $user[0]['username'] . " password = " . $user[0]['password'];
 
-   echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++";
-   echo "$userName $password";
+  //if(password_verify($password, $user[0]['userspassword'])){
+   //$_SESSION['user_id']= $user[0]['users_id'];
+   //$_SESSION['userName']= $user[0]['usersname'];
 
-   header('Location: ./onlineStore.php');
-   die();
-  }else{
-     echo "<script>alert('Login Fail');</script>";
-     header('Location: ./home.php');
-  }
+
+   //header('Location: ./onlineStore.php');
+   //die();
+  //}else{
+     //echo "<script>alert('Login Fail');</script>";
+     //header('Location: ./home.php');
+  //}
 ?>

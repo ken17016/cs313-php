@@ -20,6 +20,10 @@ window.onload = function () {
     document.getElementById("cart").onclick = function () {
         location.href = "./cart.php";
     };
+
+    document.getElementById("login").onclick = function () {
+        location.href = "./loginHeader.php";
+    };
 };
 
 function add_number() {

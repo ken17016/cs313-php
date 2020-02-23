@@ -18,7 +18,7 @@
   echo print_r($user);
   echo "<br>";
   echo "input username = $userName :: input password= $password<br>";
-  echo "rusername = " . $user[0]['username'] . " rpassword = " . $user[0]['password'];
+  echo "rusername = " . $user[0]['usersname'] . " rpassword = " . $user[0]['userspassword'];
 
   //if(password_verify($password, $user[0]['userspassword'])){
    //$_SESSION['user_id']= $user[0]['users_id'];

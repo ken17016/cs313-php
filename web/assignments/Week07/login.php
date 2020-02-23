@@ -15,7 +15,7 @@
 
   $user = $statement->fetchALL(PDO::FETCH_ASSOC);
 
-  if(password_verify($passowrd, $user[0]['userspassword'])){
+  if(password_verify($password, $user[0]['userspassword'])){
    $_SESSION['user_id']= $user[0]['users_id'];
    $_SESSION['userName']= $user[0]['usersname'];
 

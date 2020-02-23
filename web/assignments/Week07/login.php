@@ -17,5 +17,10 @@
   if(password_verify($passowrd, $user[0]['userspassword'])){
    $_SESSION['user_id']= $user[0]['users_id'];
    $_SESSION['userName']= $user[0]['usersname'];
+   header('Location: ./onlineStore.php');
+   die();
+  }else{
+   echo "<script>alert('Login Fail');</script>";
+   header('Location: ./home.php');
   }
 ?>

@@ -28,6 +28,16 @@
 </head>
 <body>
    <header>
+        <h1>Sir Tibbits Emporium Of Oddities.</h1>
+        <div class="tab">
+            <button id="home" class="tablinks">Home</button>
+            <button id="about" class="tablinks">About</button>
+            <button id="contactUs" class="tablinks">Contact Us</button>
+            <button id="onlineStore" class="tablinks">Online Store</button>
+            <button id="cart" class="tablinks">Cart</button>
+            <button id="login" class="tablinks">Login</button>
+        </div>
+        <hr />
       <h1>Login</h1>
    <header>
    <form action="login.php" method="post">

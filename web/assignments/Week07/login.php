@@ -20,15 +20,16 @@
   echo "input username = $userName :: input password= $password<br>";
   echo "rusername = " . $user[0]['usersname'] . " rpassword = " . $user[0]['userspassword'];
 
-  //if(password_verify($password, $user[0]['userspassword'])){
-   //$_SESSION['user_id']= $user[0]['users_id'];
-   //$_SESSION['userName']= $user[0]['usersname'];
+  if(password_verify($password, $user[0]['userspassword'])){
+   $_SESSION['user_id']= $user[0]['users_id'];
+   $_SESSION['userName']= $user[0]['usersname'];
 
+   echo "<br> Login success";
 
    //header('Location: ./onlineStore.php');
-   //die();
-  //}else{
-     //echo "<script>alert('Login Fail');</script>";
-     //header('Location: ./home.php');
-  //}
+   die();
+  }else{
+     echo "<script>alert('Login Fail');</script>";
+    // header('Location: ./home.php');
+  }
 ?>
